@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="countries-list">
+            <p class="country" data-country="China">China</p>
+            <p class="country" data-country="Japan">Japan</p>
+            <p class="country" data-country="South Korea">South Korea</p>
+            <p class="country" data-country="Vietnam">Vietnam</p>
+            <p class="country" data-country="Malaysia">Malaysia</p>
+            
+            <!-- Input and Button for manual entry -->
+            <div class="input-section">
+                <input type="text" id="country-input" placeholder="Enter a country name">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+        <div class="country-info">
+            <div class="capital" id="capital-text">Capital:</div>
+            <img id="country-image" alt="Country Image" style="display:none; max-width: 100%; height: auto; border-radius: 8px;"/>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
